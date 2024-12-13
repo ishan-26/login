@@ -8,7 +8,7 @@ export function EvervaultCardDemo() {
       <img
         src={loginbg}
         alt="Demo Background"
-        className="absolute inset-0 w-full h-full object-cover overflow-hidden"
+        className="absolute inset-0 w-full h-full object-cover overflow-x-hidden overflow-y-hidden"
       />
 
       <div className="relative flex items-center justify-center h-screen"> {/* Center the content */}
